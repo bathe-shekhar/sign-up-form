@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js"></script>
+    <link rel="preconnect" href="./public/assets/fonts/Norse-Bold.otf">
+    <title>Sign up Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+
+            <img class="siderbar-img" src="./public/assets/images/halie-west-25xggax4bSA-unsplash.jpg" alt="bg-image" />
+
+
+            <div class="odin-logo">
+                <img src="./public/assets/images/odin-lined.png" alt="odin-logo" />
+                <span class="logo-text">ODIN</span>
+            </div>
+        </div>
+
+
+        <div class="right-section">
+            <div class="right-section1">
+                <div class="message">
+                    <p>
+                        This is not a real online service! You know you need something
+                        <br>
+                        like this in your life to help you realize your deepest dreams.
+                        <br>
+                        Sign up <i>now</i> to get started.
+                    </p>
+                    <p>
+                        You <em>know</em> you want to.
+                    </p>
+                </div>
+            </div>
+            <div class="right-section2">
+                <h1>Let's do this!</h1>
+                <form action="#" method="post">
+                    <div class="form-row">
+                        <div class="form-element">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name" minlength="3" maxlength="30">
+                        </div>
+                        <div class="form-element">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name" minlength="3" maxlength="30">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-element">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-element">
+                            <label for="phone_number">Phone Number</label>
+                            <input type="text" id="phone_number" name="phone_number" minlength="10" maxlength="10">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-element">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" minlength="8">
+                        </div>
+                        <div class="form-element">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password" name="confirm-password" minlength="8">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <div class="right-section3">
+                <div class="right-bottom">
+                    <button id="create-account">Create Account</button>
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
