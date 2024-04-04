@@ -108,6 +108,7 @@ body {
     display: flex;
     justify-content: left;
     margin-top: 25px;
+    flex-wrap: wrap;
 }
 
 .form-element {
@@ -183,4 +184,31 @@ form {
     font-size: 16px;
     margin-top: 5px;
 
+}
+
+@media screen and (max-width:640px) {
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .right-section {
+        width: 100%;
+    }
+
+    .form-element {
+        width: 70%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .form-row {
+        margin-top: 0px;
+    }
+
+    .form-element input {
+        margin-bottom: 15px;
+    }
 }
