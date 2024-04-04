@@ -189,11 +189,11 @@ form {
 @media screen and (max-width:640px) {
 
     .sidebar {
-        width: 100%;
+        width: 100vh;
     }
 
     .right-section {
-        width: 100%;
+        width: 100vh;
     }
 
     .form-element {
