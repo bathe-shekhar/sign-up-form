@@ -188,11 +188,13 @@ form {
 @media screen and (max-width:640px) {
 
     .sidebar {
-        width: 100vh;
+        width: 100vw;
+        height: fit-content;
     }
 
     .right-section {
-        width: 100vh;
+        width: 100vw;
+        height: fit-content;
     }
 
     .form-element {
@@ -201,6 +203,8 @@ form {
 
     .container {
         flex-direction: column;
+        width: 100vw;
+        height: fit-content;
     }
 
     .form-row {
@@ -212,7 +216,8 @@ form {
     }
 
     .right-section1,
+    .right-section2,
     .right-section3 {
-        width: auto;
+        width: 100%;
     }
 }
